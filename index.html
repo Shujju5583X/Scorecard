@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <title>Score Counter</title> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div id="home">
+                <h3>HOME</h3>
+                <h1 id="home-el">0</h1>
+                <div id="home-buttons">
+                    <h2 id="1" onclick="hone()">+1</h2>
+                    <h2 id="2" onclick="htwo()">+2</h2>
+                    <h2 id="3" onclick="hthree()">+3</h2>
+                </div>
+            </div>
+            <div id="guest">
+                <h3>AWAY</h3>
+                <h1 id="guest-el">0</h1>
+                <div id="guest-buttons">
+                    <h2 id="1" onclick="gone()" >+1</h2>
+                    <h2 id="2" onclick="gtwo()" >+2</h2>
+                    <h2 id="3" onclick="gthree()">+3</h2>
+                </div>
+            </div>
+        </div>
+        <button id="reset" onclick="reset()">RESET</button>
+        <script src="index.js"></script>
+    </body>
+</html>
